@@ -5,7 +5,7 @@
   width: 264px;
   border-color:red;
 }
-ul li{
+#nav_bar ul li{
   text-align:center;
   text-decoration: none;
   margin:0 2px;
@@ -17,7 +17,7 @@ ul li{
 li:hover{
   background-color: grey;
 }
-ul{
+#nav_bar ul{
   display: flex;
   margin: 0 0;
   border-width: 0 0;
@@ -54,4 +54,21 @@ ul{
   height:185px;
   margin:0 auto;
   border: 1px solid red;
+}
+#footer{
+  width: 208px;
+  margin: 0 auto 0 auto;
+  float: bottom;
+}
+#footer ul {
+  list-style:none;
+  display: flex;
+  margin: 0 0;
+  padding: 0 0;
+  border: 1px solid black;
+}
+#footer ul li{
+  width: 100px;
+  border: 2px dotted green;
+  margin: 0 0;
 }
